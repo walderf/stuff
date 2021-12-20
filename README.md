@@ -4,18 +4,17 @@
 
 * [links to stuff](#links-to-stuff) - hyperlinks to websites on the world wide web  
 * [scripts](#scripts) - shell scripts    
-  * **[bash](##bash)**   
+  * **[bash](#\#bash)**   
     * [colorme.sh](#colorme) - 16 colors with pretty format  
     * [showcolors.sh](#showcolors) - displays either 16 or 256 colors, defaults to 16  
     * [getip.sh](#getip) - HTTP request to output public facing IP address   
 * [functions](#functions) - shell functions  
-  * **[bash](##bash)**  
+  * **[bash](#\#bash)**  
     * [faketty()](#faketty) - allows color output for piped commands  
-  * **[zsh](##zsh)**  
+  * **[zsh](#\#zsh)**  
     * [currdate()](#currdate) - unfinished, sets $DATE, a variable with a future in file naming  
 ---  
 <br />
-<br />  
 
 [`^`](#)
 
@@ -29,13 +28,14 @@
 <https://github.com/awesome-selfhosted/awesome-selfhosted>
 ---
 <br />
-<br />
 
 [`^`](#)
 
 ### scripts
 - - - 
 ###### \#bash  
+
+:placard:  
 
 ## colorme  
  - outputs 16 colors with a pretty format
@@ -63,7 +63,8 @@ done
 ```
 ---
 <br />
-<br />
+
+:placard:  
 
 ## showcolors  
  - outputs either 16 or 256 colors, defaults to 16
@@ -125,7 +126,8 @@ esac
 ```
 ---
 <br />
-<br />
+
+:placard:  
 
 ## getip
  - sends HTTP request to output public facing IP  
@@ -139,7 +141,6 @@ echo $IPADDR
 ```
 ---
 <br />
-<br />
 
 [`^`](#)
 
@@ -147,6 +148,8 @@ echo $IPADDR
 - - - 
 
 ###### \#bash  
+
+:placard:  
 
 ## faketty  
  - allows color output for piped commands
@@ -165,6 +168,8 @@ faketty() {
 ---
 
 ###### \#zsh  
+
+:placard:  
 
 ## currdate
 - **\[unfinished]** a function who has a future in naming files, provides $DATE env variable
