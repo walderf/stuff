@@ -65,7 +65,8 @@ for lfg in 'm' '1m' '30m' '1;30m' '31m' '1;31m' '32m' '1;32m' '33m' '1;33m' '34m
 done
 ```
 
-</details>
+</details>  
+
 - - -
 <br />
 
@@ -131,7 +132,8 @@ case $term in
 esac
 ```
 
-</details>
+</details>  
+
 - - -
 <br />
 
