@@ -9,9 +9,9 @@
     * [showcolors.sh](#showcolors) - displays either 16 or 256 colors, defaults to 16  
     * [getip.sh](#getip) - HTTP request to output public facing IP address  
 * [stuff for shells](#stuff-for-shells) - some shell functions, aliases, and stuff  
-  * **[bash functions](#bash-shell-functions)**  
+  * **[bash functions](#--bash-shell-functions--)**  
     * [faketty()](#faketty) - allows color output for piped commands  
-  * **[zsh functions](#zsh-shell-functions)**  
+  * **[zsh functions](#--zsh-shell-functions--)**  
     * [currdate()](#currdate) - unfinished, sets $DATE, a variable with a future in file naming  
 ---  
 
