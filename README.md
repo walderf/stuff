@@ -4,14 +4,14 @@
 
 * [links to stuff](#links-to-stuff) - hyperlinks to websites on the world wide web  
 * [scripts](#scripts) - shell scripts    
-  * **[bash](#\#bash)**   
+  * **[bash](#bash-shell-scripts)**   
     * [colorme.sh](#colorme) - 16 colors with pretty format  
     * [showcolors.sh](#showcolors) - displays either 16 or 256 colors, defaults to 16  
     * [getip.sh](#getip) - HTTP request to output public facing IP address   
 * [functions](#functions) - shell functions  
-  * **[bash](#\#bash)**  
+  * **[bash](#bash-shell-functions)**  
     * [faketty()](#faketty) - allows color output for piped commands  
-  * **[zsh](#\#zsh)**  
+  * **[zsh](#zsh-shell-functions)**  
     * [currdate()](#currdate) - unfinished, sets $DATE, a variable with a future in file naming  
 ---  
 
@@ -35,7 +35,7 @@
 
 ### scripts
 - - - 
-###### \#bash  
+###### bash shell scripts  
 
 
 ## colorme  
@@ -165,7 +165,7 @@ echo $IPADDR
 ### functions
 - - - 
 
-###### \#bash  
+###### bash shell functions  
 
 
 ## faketty  
@@ -184,7 +184,7 @@ faketty() {
 ```
 ---
 
-###### \#zsh  
+###### zsh shell functions  
 
 
 ## currdate
