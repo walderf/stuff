@@ -54,7 +54,7 @@ done
 ```
 
 ##### showcolors  
-- outputs either 16 or 256 colors, defaults to 256
+ - outputs either 16 or 256 colors, defaults to 256
 
   ->  [showcolors.sh](scripts/showcolors.sh)  <-  
 	->  [showcolors256-screenshot.png](screenshots/showcolors256-screenshot.png)  <-  
