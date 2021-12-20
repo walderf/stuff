@@ -26,7 +26,70 @@
 <https://andremiras.github.io/gitpop3/>  
 
 * **awesome-selfhosted** - *a list of software for self-hosting of services*  
-<https://github.com/awesome-selfhosted/awesome-selfhosted>
+<https://github.com/awesome-selfhosted/awesome-selfhosted>  
+
+* **awesome-sysadmin** - *a list of open source sysadmin resources*  
+<https://github.com/awesome-foss/awesome-sysadmin>  
+
+* **awesome-security** - *a list of security related software, libraries, resources, etc*  
+<https://github.com/sbilly/awesome-security#monitoring--logging>  
+
+* **systemd tips & tricks** - *tips & tricks for systemd*  
+<https://www.freedesktop.org/wiki/Software/systemd/TipsAndTricks/>  
+
+* **Operational Awareness** - *"Cyber Operations: Building, Defending, and Attacking Modern Computer Networks"*  
+<https://goois.net/3-operational-awareness-cyber-operations-building-defending-and-attacking-modern-computer-networks.html>  
+
+* **a handy arch related wiki** - *solid, detailed hardening configurations and various tips*  
+<https://kyau.net/wiki/Category:Arch_Linux>  
+
+* **grml zsh** - *home of grml-zsh-config - **the** zsh config*
+<https://grml.org/zsh/>  
+
+* **linux post-installation tasks** - *from fedora, good over-all information and reference*  
+<https://docs.fedoraproject.org/en-US/fedora-server/sysadmin-postinstall/>  
+
+* **RoseHosting blog** - *hundreds of linux related posts with good information*  
+<https://www.rosehosting.com/blog/>  
+
+* **bash scripting cheatsheet** - *"The Only Bash Scripting Cheat Sheet That You Will Ever Need"*  
+<https://dev.to/bobbyiliev/the-only-bash-scripting-cheat-sheet-that-you-will-ever-need-55c7>  
+
+* **learning the shell** - *commandline and scripting reference, free book(s) for download*  
+<https://linuxcommand.org/lc3_learning_the_shell.php>  
+
+* **joplin/plugins** - *official joplin plugin repository*  
+<https://github.com/joplin/plugins>  
+
+* **the book of secret knowledge** - *manuals, cheatsheets, blogs, hacks, one-liners, cli tools, etc*  
+<https://github.com/trimstray/the-book-of-secret-knowledge>  
+
+* **malware analysis tools list** - *extensive list of hacker shit, i don't know much else*  
+<https://0x1.gitlab.io/security/Malware-Analysis-Tools-List/#browser-malware>  
+
+* **linux workstation security checklist** - *security checklist for the linux workstation*  
+<https://github.com/lfit/itpol/blob/master/linux-workstation-security.md>  
+
+* **fzf usage examples** - *fzf implemtations, usage examples, scripts, etc.*  
+<https://github.com/junegunn/fzf#usage>  
+
+* **Privacy Guides** - *good resource with vetted privacy-oriented solutions*  
+<https://www.privacyguides.org/>  
+
+* **Privacy Tools** - *the original resource with vetted privacy-oriented solutions*  
+<https://www.privacytools.io/>  
+
+* **stargraph** - *github star history plots, neat graphs about top github projects*  
+<https://github.com/nschloe/stargraph>  
+
+* **bufferblot and speedtest** - *speedtest tool like dslreport's test, works in modern browsers*  
+<https://www.waveform.com/tools/bufferbloat>  
+
+* **vermaden's sysadmin blog** - *lots of FreeBSD and server related guides from a sysadmin*  
+<https://vermaden.wordpress.com/>  
+
+* **calomel -nix guides** - *"Open Source Resource and Reference"  lots of guides, etc.*  
+<https://calomel.org/>  
 ---
 
 [`^`](#)
