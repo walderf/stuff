@@ -4,30 +4,31 @@
 
 * [links to stuff](#links-to-stuff) - hyperlinks to websites on the world wide web  
 * [scripts](#scripts) - shell scripts    
-  * **[bash](#bash-scripts)**   
+  * **[bash](#\<-bash-scripts->)**   
     * [colorme.sh](#colorme) - 16 colors with pretty format  
     * [showcolors.sh](#showcolors) - displays either 16 or 256 colors, defaults to 16  
     * [getip.sh](#getip) - HTTP request to output public facing IP address   
 * [functions](#functions) - shell functions  
-  * **[bash](#bash-functions)**  
+  * **[bash](#\<-bash-functions->)**  
     * [faketty()](#faketty) - allows color output for piped commands  
-  * **[zsh](#zsh-functions)**  
+  * **[zsh](#\<-zsh-functions->)**  
     * [currdate()](#currdate) - unfinished, sets $DATE, a variable with a future in file naming
-
 ---  
-
-# links to stuff
+<br />
+<br />
+### links to stuff
 * **GitPop3** - *"Find the most popular fork on GitHub."*  
 <https://andremiras.github.io/gitpop3/>  
 
 * **awesome-selfhosted** - *a list of software for self-hosting of services*  
 <https://github.com/awesome-selfhosted/awesome-selfhosted>
-
 ---
+<br />
+<br />
 
-# scripts
+### scripts
 
-### bash scripts
+##### \< bash scripts >
 
 ## colorme  
  - outputs 16 colors with a pretty format
@@ -53,9 +54,9 @@ for lfg in 'm' '1m' '30m' '1;30m' '31m' '1;31m' '32m' '1;32m' '33m' '1;33m' '34m
  echo
 done
 ```
+---
 <br />
----
----
+<br />
 
 ## showcolors  
  - outputs either 16 or 256 colors, defaults to 16
@@ -115,9 +116,9 @@ case $term in
   	;;
 esac
 ```
+---
+<br//>
 <br />
----
----
 
 ## getip
  - sends HTTP request to output public facing IP  
@@ -129,13 +130,13 @@ esac
 IPADDR=$(wget -q -O- http://whatismyip.akamai.com --no-check-certificate)
 echo $IPADDR
 ```
+---
 <br />
----
----
+<br />
 
-# functions
+### functions
 
-### bash functions
+##### \< bash functions >
 
 ## faketty  
  - allows color output for piped commands
@@ -152,8 +153,10 @@ faketty() {
 }
 ```
 ---
+<br />
+<br />
 
-### zsh functions
+##### \< zsh functions >
 
 ## currdate
 - **\[unfinished]** a function who has a future in naming files, provides $DATE env variable
@@ -165,7 +168,6 @@ alias currdate='strftime "%m-%d-%Y" $EPOCHSECONDS'
 export DATE=`currdate`
 ```
 ---
-
 <br />
 <br />
 
