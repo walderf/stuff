@@ -33,8 +33,8 @@
  - outputs 16 colors with a pretty format
 
   ->  [colorme.sh](scripts/colorme.sh)  <-  
-	->  [colorme-screenshot.png](screenshots/colorme-screenshot.png)  <-
-<br />
+	->  [colorme-screenshot.png](screenshots/colorme-screenshot.png)  <-  
+<br />  
 ![colorme.sh screenshot](screenshots/colorme-screenshot.png)  
 
 ```bash
@@ -59,7 +59,7 @@ done
 
   ->  [showcolors.sh](scripts/showcolors.sh)  <-  
 	->  [showcolors256-screenshot.png](screenshots/showcolors256-screenshot.png)  <-
-<br />
+<br />  
 ![showcolors.sh --256 screenshot](screenshots/showcolors256-screenshot.png)  
 
 ```bash
