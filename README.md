@@ -46,8 +46,8 @@
   
 ![colorme.sh screenshot](screenshots/colorme-screenshot.png)  
 
-<details><summary>show code</summary>
-<p>
+<details><summary>show script source code</summary>
+
 ```bash
 #!/bin/bash
 #
@@ -64,7 +64,7 @@ for lfg in 'm' '1m' '30m' '1;30m' '31m' '1;31m' '32m' '1;32m' '33m' '1;33m' '34m
  echo
 done
 ```
-</p>
+
 </details>
 ---
 <br />
@@ -78,8 +78,8 @@ done
   
 ![showcolors.sh --256 screenshot](screenshots/showcolors256-screenshot.png)  
 
-<details><summary>show code</summary>
-<p>
+<details><summary>show script source code</summary>
+
 ```bash
 #!/bin/bash
 #
@@ -130,7 +130,7 @@ case $term in
   	;;
 esac
 ```
-</p>
+
 </details>
 ---
 <br />
