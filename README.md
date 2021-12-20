@@ -1,6 +1,6 @@
 # stuff - a collection of various ~~useful~~ things  
 
-### table of contents  
+### table of stuff  
 
 * [links to stuff](#links-to-stuff) - hyperlinks to websites on the world wide web  
 * [script stuff](#script-stuff) - shell scripts  
@@ -19,85 +19,107 @@
 
 <br />
 
-### links to stuff  
-- - - 
+# links to stuff  
 
-* **GitPop3** - *"Find the most popular fork on GitHub."*  
-<https://andremiras.github.io/gitpop3/>  
+> ### **GitPop3** 
+##### :small_orange_diamond: "Find the most popular fork on GitHub."
+###### :small_orange_diamond: <https://andremiras.github.io/gitpop3/>
 
-* **awesome-selfhosted** - *a list of software for self-hosting of services*  
-<https://github.com/awesome-selfhosted/awesome-selfhosted>  
+> ### **awesome-selfhosted**  
+##### :small_orange_diamond: a list of software for self-hosting of services 
+###### :small_orange_diamond: <https://github.com/awesome-selfhosted/awesome-selfhosted>  
 
-* **awesome-sysadmin** - *a list of open source sysadmin resources*  
-<https://github.com/awesome-foss/awesome-sysadmin>  
+> ### **awesome-sysadmin**  
+##### :small_orange_diamond: a list of open source sysadmin resources  
+###### :small_orange_diamond: <https://github.com/awesome-foss/awesome-sysadmin>  
 
-* **awesome-security** - *a list of security related software, libraries, resources, etc*  
-<https://github.com/sbilly/awesome-security#monitoring--logging>  
+> ### **awesome-security** 
+##### :small_orange_diamond: a list of security related software, libraries, resources, etc  
+###### :small_orange_diamond: <https://github.com/sbilly/awesome-security#monitoring--logging>  
 
-* **systemd tips & tricks** - *tips & tricks for systemd*  
-<https://www.freedesktop.org/wiki/Software/systemd/TipsAndTricks/>  
+> ###  **systemd tips & tricks** 
+##### :small_orange_diamond: tips & tricks for systemd  
+###### :small_orange_diamond: <https://www.freedesktop.org/wiki/Software/systemd/TipsAndTricks/>  
 
-* **Operational Awareness** - *"Cyber Operations: Building, Defending, and Attacking Modern Computer Networks"*  
-<https://goois.net/3-operational-awareness-cyber-operations-building-defending-and-attacking-modern-computer-networks.html>  
+> ###  **Operational Awareness** 
+##### :small_orange_diamond: "Cyber Operations: Building, Defending, and Attacking Modern Computer Networks"  
+###### :small_orange_diamond: <https://goois.net/3-operational-awareness-cyber-operations-building-defending-and-attacking-modern-computer-networks.html>  
 
-* **a handy arch related wiki** - *solid, detailed hardening configurations and various tips*  
-<https://kyau.net/wiki/Category:Arch_Linux>  
+> ###  **a handy arch related wiki** 
+##### :small_orange_diamond: solid, detailed hardening configurations and various tips  
+###### :small_orange_diamond: <https://kyau.net/wiki/Category:Arch_Linux>  
 
-* **grml zsh** - *home of grml-zsh-config - **the** zsh config*
-<https://grml.org/zsh/>  
+> ###  **grml zsh**  
+##### :small_orange_diamond: home of grml-zsh-config - ***the*** zsh config
+###### :small_orange_diamond: <https://grml.org/zsh/>  
 
-* **linux post-installation tasks** - *from fedora, good over-all information and reference*  
-<https://docs.fedoraproject.org/en-US/fedora-server/sysadmin-postinstall/>  
+> ###  **linux post-installation tasks**  
+##### :small_orange_diamond: from fedora, good over-all information and reference  
+###### :small_orange_diamond: <https://docs.fedoraproject.org/en-US/fedora-server/sysadmin-postinstall/>  
 
-* **RoseHosting blog** - *hundreds of linux related posts with good information*  
-<https://www.rosehosting.com/blog/>  
+> ###  **RoseHosting blog**
+##### :small_orange_diamond: hundreds of linux related posts with good information
+###### :small_orange_diamond: <https://www.rosehosting.com/blog/>  
 
-* **bash scripting cheatsheet** - *"The Only Bash Scripting Cheat Sheet That You Will Ever Need"*  
-<https://dev.to/bobbyiliev/the-only-bash-scripting-cheat-sheet-that-you-will-ever-need-55c7>  
+> ###  **bash scripting cheatsheet**  
+##### :small_orange_diamond: "The Only Bash Scripting Cheat Sheet That You Will Ever Need"  
+###### :small_orange_diamond: <https://dev.to/bobbyiliev/the-only-bash-scripting-cheat-sheet-that-you-will-ever-need-55c7>  
 
-* **learning the shell** - *commandline and scripting reference, free book(s) for download*  
-<https://linuxcommand.org/lc3_learning_the_shell.php>  
+> ### **learning the shell**  
+##### :small_orange_diamond: commandline and scripting reference, free book(s) for download  
+###### :small_orange_diamond: <https://linuxcommand.org/lc3_learning_the_shell.php>  
 
-* **joplin/plugins** - *official joplin plugin repository*  
-<https://github.com/joplin/plugins>  
+> ###  **joplin/plugins**  
+##### :small_orange_diamond: official joplin plugin repository  
+###### :small_orange_diamond: <https://github.com/joplin/plugins>  
 
-* **the book of secret knowledge** - *manuals, cheatsheets, blogs, hacks, one-liners, cli tools, etc*  
-<https://github.com/trimstray/the-book-of-secret-knowledge>  
+> ###  **the book of secret knowledge**  
+##### :small_orange_diamond: manuals, cheatsheets, blogs, hacks, one-liners, cli tools, etc  
+###### :small_orange_diamond: <https://github.com/trimstray/the-book-of-secret-knowledge>  
 
-* **malware analysis tools list** - *extensive list of hacker shit, i don't know much else*  
-<https://0x1.gitlab.io/security/Malware-Analysis-Tools-List/#browser-malware>  
+> ###  **malware analysis tools list**  
+##### :small_orange_diamond: extensive list of hacker shit, i don't know much else  
+###### :small_orange_diamond: <https://0x1.gitlab.io/security/Malware-Analysis-Tools-List/#browser-malware>  
 
-* **linux workstation security checklist** - *security checklist for the linux workstation*  
-<https://github.com/lfit/itpol/blob/master/linux-workstation-security.md>  
+> ###  **linux workstation security checklist**
+##### :small_orange_diamond: security checklist for the linux workstation  
+###### :small_orange_diamond: <https://github.com/lfit/itpol/blob/master/linux-workstation-security.md>  
 
-* **fzf usage examples** - *fzf implemtations, usage examples, scripts, etc.*  
-<https://github.com/junegunn/fzf#usage>  
+> ###  **fzf usage examples**
+##### :small_orange_diamond: fzf implemtations, usage examples, scripts, etc.  
+###### :small_orange_diamond: <https://github.com/junegunn/fzf#usage>  
 
-* **Privacy Guides** - *good resource with vetted privacy-oriented solutions*  
-<https://www.privacyguides.org/>  
+> ###  **Privacy Guides**
+##### :small_orange_diamond: good resource with vetted privacy-oriented solutions  
+###### :small_orange_diamond: <https://www.privacyguides.org/>  
 
-* **Privacy Tools** - *the original resource with vetted privacy-oriented solutions*  
-<https://www.privacytools.io/>  
+> ###  **Privacy Tools**  
+##### :small_orange_diamond: *the original resource with vetted privacy-oriented solutions
+###### :small_orange_diamond: <https://www.privacytools.io/>  
 
-* **stargraph** - *github star history plots, neat graphs about top github projects*  
-<https://github.com/nschloe/stargraph>  
+> ###  **stargraph**  
+##### :small_orange_diamond: github star history plots, neat graphs about top github projects  
+###### :small_orange_diamond: <https://github.com/nschloe/stargraph>  
 
-* **bufferblot and speedtest** - *speedtest tool like dslreport's test, works in modern browsers*  
-<https://www.waveform.com/tools/bufferbloat>  
+> ###  **bufferbloat and speedtest**  
+##### :small_orange_diamond: speedtest tool like dslreport's test, works in modern browsers  
+###### :small_orange_diamond: <https://www.waveform.com/tools/bufferbloat>  
 
-* **vermaden's sysadmin blog** - *lots of FreeBSD and server related guides from a sysadmin*  
-<https://vermaden.wordpress.com/>  
+> ###  **vermaden's sysadmin blog**  
+##### :small_orange_diamond: lots of FreeBSD and server related guides from a sysadmin  
+###### :small_orange_diamond: <https://vermaden.wordpress.com/>   
 
-* **calomel -nix guides** - *"Open Source Resource and Reference"  lots of guides, etc.*  
-<https://calomel.org/>  
+> ###  **calomel -nix guides**  
+##### :small_orange_diamond: "Open Source Resource and Reference"  lots of guides, etc.  
+###### :small_orange_diamond: <https://calomel.org/>  
 ---
 
 [`^`](#)
 
 <br />
 
-### script stuff
-- - - 
+# script stuff
+
 ###### bash shell scripts  
 
 
@@ -225,8 +247,7 @@ echo $IPADDR
 
 <br />
 
-### stuff for shells
-- - - 
+# stuff for shells
 
 ###### bash shell functions  
 
