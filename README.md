@@ -4,19 +4,20 @@
 
 * [links to stuff](#links-to-stuff) - hyperlinks to websites on the world wide web  
 * [scripts](#scripts) - shell scripts    
-  * **[bash](#\<-bash-scripts->)**   
+  * **[bash](#\#bash)**   
     * [colorme.sh](#colorme) - 16 colors with pretty format  
     * [showcolors.sh](#showcolors) - displays either 16 or 256 colors, defaults to 16  
     * [getip.sh](#getip) - HTTP request to output public facing IP address   
 * [functions](#functions) - shell functions  
-  * **[bash](#\<-bash-functions->)**  
+  * **[bash](#\#bash)**  
     * [faketty()](#faketty) - allows color output for piped commands  
-  * **[zsh](#\<-zsh-functions->)**  
+  * **[zsh](#\#zsh)**  
     * [currdate()](#currdate) - unfinished, sets $DATE, a variable with a future in file naming
 ---  
 <br />
 <br />
 ### links to stuff
+- - - 
 * **GitPop3** - *"Find the most popular fork on GitHub."*  
 <https://andremiras.github.io/gitpop3/>  
 
@@ -27,8 +28,8 @@
 <br />
 
 ### scripts
-
-##### \< bash scripts >
+- - - 
+##### \#bash  
 
 ## colorme  
  - outputs 16 colors with a pretty format
@@ -117,7 +118,7 @@ case $term in
 esac
 ```
 ---
-<br//>
+<br />
 <br />
 
 ## getip
@@ -135,8 +136,8 @@ echo $IPADDR
 <br />
 
 ### functions
-
-##### \< bash functions >
+- - - 
+#### \#bash  
 
 ## faketty  
  - allows color output for piped commands
@@ -154,9 +155,8 @@ faketty() {
 ```
 ---
 <br />
-<br />
 
-##### \< zsh functions >
+#### \#zsh  
 
 ## currdate
 - **\[unfinished]** a function who has a future in naming files, provides $DATE env variable
@@ -169,6 +169,4 @@ export DATE=`currdate`
 ```
 ---
 <br />
-<br />
 
----
