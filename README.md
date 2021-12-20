@@ -37,7 +37,7 @@
 - - - 
 ###### \#bash  
 
-:small_orange_diamond:
+
 ## colorme  
  - outputs 16 colors with a pretty format
 
@@ -74,7 +74,7 @@ done
 - - -
 <br />
 
-:small_orange_diamond:
+
 ## showcolors  
  - outputs either 16 or 256 colors, defaults to 16
 
@@ -145,7 +145,7 @@ esac
 - - -
 <br />
 
-:small_orange_diamond:
+
 ## getip
  - sends HTTP request to output public facing IP  
 
@@ -167,7 +167,7 @@ echo $IPADDR
 
 ###### \#bash  
 
-:small_orange_diamond:
+
 ## faketty  
  - allows color output for piped commands
 
@@ -186,7 +186,7 @@ faketty() {
 
 ###### \#zsh  
 
-:small_orange_diamond:
+
 ## currdate
 - **\[unfinished]** a function who has a future in naming files, provides $DATE env variable
 
