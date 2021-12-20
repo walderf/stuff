@@ -17,10 +17,10 @@
 <br />
 <br />  
 
+[`^`](#)
+
 ### links to stuff  
 - - - 
-
-[`^`](#)
 
 * **GitPop3** - *"Find the most popular fork on GitHub."*  
 <https://andremiras.github.io/gitpop3/>  
@@ -31,12 +31,11 @@
 <br />
 <br />
 
-### scripts
-- - - 
-
 [`^`](#)
 
-### \#bash  
+### scripts
+- - - 
+###### \#bash  
 
 ## colorme  
  - outputs 16 colors with a pretty format
@@ -142,12 +141,12 @@ echo $IPADDR
 <br />
 <br />
 
+[`^`](#)
+
 ### functions
 - - - 
 
-[`^`](#)
-
-### \#bash  
+###### \#bash  
 
 ## faketty  
  - allows color output for piped commands
@@ -165,7 +164,7 @@ faketty() {
 ```
 ---
 
-### \#zsh  
+###### \#zsh  
 
 ## currdate
 - **\[unfinished]** a function who has a future in naming files, provides $DATE env variable
