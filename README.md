@@ -4,7 +4,7 @@
 
 * [links to stuff](#links-to-stuff) - hyperlinks to websites on the world wide web  
 * [script stuff](#script-stuff) - shell scripts  
-  * **[bash](#bash-shell-scripts)**   
+  * **[bash](#--bash-shell-scripts--)**   
     * [colorme.sh](#colorme) - 16 colors displayed using pretty format  
     * [showcolors.sh](#showcolors) - displays either 16 or 256 colors, defaults to 16  
     * [getip.sh](#getip) - HTTP request to output public facing IP address  
@@ -120,8 +120,7 @@
 
 # script stuff
 
-###### bash shell scripts  
-
+###### \- bash shell scripts -  
 
 ## colorme  
  - outputs 16 colors with a pretty format
@@ -249,7 +248,9 @@ echo $IPADDR
 
 # stuff for shells
 
-###### bash shell functions  
+
+
+###### \- bash shell functions -  
 
 
 ## faketty  
@@ -268,8 +269,9 @@ faketty() {
 ```
 ---
 
-###### zsh shell functions  
+[`^`](#)
 
+###### \- zsh shell functions -  
 
 ## currdate
 - **\[unfinished]** a function who has a future in naming files, provides $DATE env variable
@@ -281,5 +283,7 @@ alias currdate='strftime "%m-%d-%Y" $EPOCHSECONDS'
 export DATE=`currdate`
 ```
 ---
-<br />
 
+[`^`](#)
+
+<br />
