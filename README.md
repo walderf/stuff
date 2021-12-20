@@ -3,12 +3,12 @@
 ### table of contents  
 
 * [links to stuff](#links-to-stuff) - hyperlinks to websites on the world wide web  
-* [scripts](#scripts) - shell scripts    
+* [script stuff](#script-stuff) - shell scripts  
   * **[bash](#bash-shell-scripts)**   
-    * [colorme.sh](#colorme) - 16 colors with pretty format  
+    * [colorme.sh](#colorme) - 16 colors displayed using pretty format  
     * [showcolors.sh](#showcolors) - displays either 16 or 256 colors, defaults to 16  
-    * [getip.sh](#getip) - HTTP request to output public facing IP address   
-* [functions](#functions) - shell functions  
+    * [getip.sh](#getip) - HTTP request to output public facing IP address  
+* [stuff for shells](#stuff-for-shells) - some shell functions, aliases, and stuff  
   * **[bash](#bash-shell-functions)**  
     * [faketty()](#faketty) - allows color output for piped commands  
   * **[zsh](#zsh-shell-functions)**  
@@ -33,7 +33,7 @@
 
 <br />
 
-### scripts
+### script stuff
 - - - 
 ###### bash shell scripts  
 
@@ -162,7 +162,7 @@ echo $IPADDR
 
 <br />
 
-### functions
+### stuff for shells
 - - - 
 
 ###### bash shell functions  
