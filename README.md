@@ -29,10 +29,14 @@
 
 #### bash scripts
 
-##### colorme - outputs 16 colors with a pretty format
+##### colorme  
+ - outputs 16 colors with a pretty format
 
-  -> [colorme.sh](scripts/colorme.sh)  <-  
-	
+  ->  [colorme.sh](scripts/colorme.sh)  <-  
+	->  [colorme-screenshot.png](screenshots/colorme-screenshot.png)  <-
+<br />
+![colorme.sh screenshot](screenshots/colorme-screenshot.png)  
+
 ```bash
 #!/bin/bash
 #
@@ -50,9 +54,13 @@ for lfg in 'm' '1m' '30m' '1;30m' '31m' '1;31m' '32m' '1;32m' '33m' '1;33m' '34m
 done
 ```
 
-##### showcolors - outputs either 16 or 256 colors, defaults to 256
+##### showcolors  
+- outputs either 16 or 256 colors, defaults to 256
 
   ->  [showcolors.sh](scripts/showcolors.sh)  <-  
+	->  [showcolors256-screenshot.png](screenshots/showcolors256-screenshot.png)  <-
+<br />
+![showcolors.sh --256 screenshot](screenshots/showcolors256-screenshot.png)  
 
 ```bash
 #!/bin/bash
@@ -106,6 +114,7 @@ esac
 ```
 
 ##### getip
+ - sends HTTP request to output public facing IP  
 
   ->  [getip.sh](scripts/getip.sh)  <-  
 	
@@ -119,7 +128,8 @@ echo $IPADDR
 
 #### bash functions
 
-##### faketty
+##### faketty  
+ - allows color output for piped commands
 
 ```bash
 #
@@ -135,6 +145,9 @@ faketty() {
 
 #### zsh functions
 
+##### currdate
+- **\[unfinished]** a function who has a future in naming files, provides $DATE env variable
+
 ```zsh
 # setting a $DATE variable for use with file naming
 zmodload zsh/datetime
@@ -142,7 +155,6 @@ alias currdate='strftime "%m-%d-%Y" $EPOCHSECONDS'
 export DATE=`currdate`
 ```
 
-##### currdate
 
 
 ---
