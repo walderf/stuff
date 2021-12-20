@@ -58,9 +58,10 @@ done
 - outputs either 16 or 256 colors, defaults to 256
 
   ->  [showcolors.sh](scripts/showcolors.sh)  <-  
-	->  [showcolors256-screenshot.png](screenshots/showcolors256-screenshot.png)  <-
-<br />  
-![showcolors.sh --256 screenshot](screenshots/showcolors256-screenshot.png)  
+	->  [showcolors256-screenshot.png](screenshots/showcolors256-screenshot.png)  <-  
+<br />
+ [showcolors.sh --256 screenshot](screenshots/showcolors256-screenshot.png)  
+<br />
 
 ```bash
 #!/bin/bash
