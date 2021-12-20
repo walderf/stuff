@@ -16,7 +16,7 @@
 
 ---  
 
-### links to stuff
+# links to stuff
 * **GitPop3** - *"Find the most popular fork on GitHub."*  
 <https://andremiras.github.io/gitpop3/>  
 
@@ -25,11 +25,11 @@
 
 ---
 
-### scripts
+# scripts
 
-#### bash scripts
+### bash scripts
 
-##### colorme  
+## colorme  
  - outputs 16 colors with a pretty format
 
   ->  [colorme.sh](scripts/colorme.sh)  <-  
@@ -53,9 +53,12 @@ for lfg in 'm' '1m' '30m' '1;30m' '31m' '1;31m' '32m' '1;32m' '33m' '1;33m' '34m
  echo
 done
 ```
+<br />
+---
+---
 
-##### showcolors  
- - outputs either 16 or 256 colors, defaults to 256
+## showcolors  
+ - outputs either 16 or 256 colors, defaults to 16
 
   ->  [showcolors.sh](scripts/showcolors.sh)  <-  
 	->  [showcolors256-screenshot.png](screenshots/showcolors256-screenshot.png)  <-  
@@ -112,8 +115,11 @@ case $term in
   	;;
 esac
 ```
+<br />
+---
+---
 
-##### getip
+## getip
  - sends HTTP request to output public facing IP  
 
   ->  [getip.sh](scripts/getip.sh)  <-  
@@ -123,12 +129,15 @@ esac
 IPADDR=$(wget -q -O- http://whatismyip.akamai.com --no-check-certificate)
 echo $IPADDR
 ```
+<br />
+---
+---
 
-### functions
+# functions
 
-#### bash functions
+### bash functions
 
-##### faketty  
+## faketty  
  - allows color output for piped commands
 
 ```bash
@@ -142,10 +151,11 @@ faketty() {
     script -qfc "$(printf "%q " "$@")" /dev/null
 }
 ```
+---
 
-#### zsh functions
+### zsh functions
 
-##### currdate
+## currdate
 - **\[unfinished]** a function who has a future in naming files, provides $DATE env variable
 
 ```zsh
@@ -154,7 +164,9 @@ zmodload zsh/datetime
 alias currdate='strftime "%m-%d-%Y" $EPOCHSECONDS'
 export DATE=`currdate`
 ```
+---
 
-
+<br />
+<br />
 
 ---
