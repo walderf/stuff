@@ -14,9 +14,10 @@
   * **[zsh](#\#zsh)**  
     * [currdate()](#currdate) - unfinished, sets $DATE, a variable with a future in file naming  
 ---  
-<br />
 
 [`^`](#)
+
+<br />
 
 ### links to stuff  
 - - - 
@@ -27,16 +28,16 @@
 * **awesome-selfhosted** - *a list of software for self-hosting of services*  
 <https://github.com/awesome-selfhosted/awesome-selfhosted>
 ---
-<br />
 
 [`^`](#)
+
+<br />
 
 ### scripts
 - - - 
 ###### \#bash  
 
-:placard:  
-
+:wavy_dash:
 ## colorme  
  - outputs 16 colors with a pretty format
 
@@ -64,8 +65,7 @@ done
 ---
 <br />
 
-:placard:  
-
+:wavy_dash:
 ## showcolors  
  - outputs either 16 or 256 colors, defaults to 16
 
@@ -127,8 +127,7 @@ esac
 ---
 <br />
 
-:placard:  
-
+:wavy_dash:
 ## getip
  - sends HTTP request to output public facing IP  
 
@@ -140,17 +139,17 @@ IPADDR=$(wget -q -O- http://whatismyip.akamai.com --no-check-certificate)
 echo $IPADDR
 ```
 ---
-<br />
 
 [`^`](#)
+
+<br />
 
 ### functions
 - - - 
 
 ###### \#bash  
 
-:placard:  
-
+:wavy_dash:
 ## faketty  
  - allows color output for piped commands
 
@@ -169,8 +168,7 @@ faketty() {
 
 ###### \#zsh  
 
-:placard:  
-
+:wavy_dash:
 ## currdate
 - **\[unfinished]** a function who has a future in naming files, provides $DATE env variable
 
