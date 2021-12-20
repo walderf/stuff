@@ -66,7 +66,7 @@ done
 ```
 
 </details>
----
+- - -
 <br />
 
 :small_orange_diamond:
@@ -132,7 +132,7 @@ esac
 ```
 
 </details>
----
+- - -
 <br />
 
 :small_orange_diamond:
