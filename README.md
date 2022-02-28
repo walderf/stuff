@@ -9,9 +9,9 @@
     * [showcolors.sh](#showcolors) - displays either 16 or 256 colors, defaults to 16  
     * [getip.sh](#getip) - HTTP request to output public facing IP address  
 * [stuff for shells](#stuff-for-shells) - some shell functions, aliases, and stuff  
-  * **[bash functions](#--bash-shell-functions--)** :small_orange_diamond:
+  * **[bash functions](#--bash-shell-functions--)** 
     * [faketty()](#faketty) - allows color output for piped commands  
-  * **[zsh functions](#--zsh-shell-functions--)** :small_orange_diamond:
+  * **[zsh functions](#--zsh-shell-functions--)** 
     * [currdate()](#currdate) - unfinished, sets $DATE, a variable with a future in file naming  
 ---  
 
@@ -101,7 +101,7 @@
   * #### `github star history plots, neat graphs about top github projects`  
   * ##### <https://github.com/nschloe/stargraph>  
 ---
-## mall_orange_diamond:  **bufferbloat and speedtest** :small_orange_diamond:
+## :small_orange_diamond:  **bufferbloat and speedtest** :small_orange_diamond:
   * #### `speedtest tool like dslreport's test, works in modern browsers`  
   * ##### <https://www.waveform.com/tools/bufferbloat>  
 ---
@@ -237,7 +237,14 @@ esac
 	
 ```bash
 #!/bin/bash
-IPADDR=$(wget -q -O- http://whatismyip.akamai.com --no-check-certificate)
+#
+# the original akamai site stopped working sometime around the end of 2021 
+# but i've decided to leave the original code in for posterity
+#
+#IPADDR=$(wget -q -O- http://whatismyip.akamai.com --no-check-certificate)
+#echo $IPADDR
+#
+IPADDR=$(dig +short myip.opendns.com @resolver1.opendns.com)
 echo $IPADDR
 ```
 ---
