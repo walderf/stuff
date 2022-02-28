@@ -50,7 +50,7 @@
   * ##### <https://kyau.net/wiki/Category:Arch_Linux>  
 ---
 ## :small_orange_diamond:  **grml zsh** :small_orange_diamond:
-  * ##### `home of grml-zsh-config - ***the*** zsh config`
+  * ##### `home of grml-zsh-config - \*the\* zsh config`
   * ##### <https://grml.org/zsh/>  
 ---
 ## :small_orange_diamond:  **linux post-installation tasks** :small_orange_diamond:
