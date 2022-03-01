@@ -231,7 +231,7 @@ esac
 
 
 ## getip
- - sends HTTP request to output public facing IP  
+ - uses a DNS lookup to output public facing IP  
 
   ->  [getip.sh](scripts/getip.sh)  <-  
 	
