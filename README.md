@@ -86,7 +86,7 @@
   * <https://github.com/lfit/itpol/blob/master/linux-workstation-security.md>  
 ---
 ### :small_orange_diamond:  **fzf usage examples** :small_orange_diamond:
-  * fzf implemtations, usage examples, scripts, etc. 
+  * fzf implementations, usage examples, scripts, etc. 
   * <https://github.com/junegunn/fzf#usage>  
 ---
 ### :small_orange_diamond:  **Privacy Guides** :small_orange_diamond:
@@ -112,6 +112,10 @@
 ### :small_orange_diamond:  **calomel -nix guides** :small_orange_diamond:
   * "Open Source Resource and Reference"  lots of guides, etc.
   * <https://calomel.org/>  
+---
+### :small_orange_diamond:  **a favorite quote of mine's "history"** :small_orange_diamond:
+  * "You’ll Worry Less About What People Think of You When You Realize How Seldom They Do"
+  * <https://quoteinvestigator.com/2014/09/09/worry-less/>  
 ---
 
 [`^`](#)
