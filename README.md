@@ -85,6 +85,10 @@
   * security checklist for the linux workstation 
   * <https://github.com/lfit/itpol/blob/master/linux-workstation-security.md>  
 ---
+### :small_orange_diamond:  **Madaidan's Insecurities - Security & Privacy Evaluations** :small_orange_diamond:
+  * "information on security and privacy-related topics" but hardcore
+  * <https://madaidans-insecurities.github.io>  
+---
 ### :small_orange_diamond:  **fzf usage examples** :small_orange_diamond:
   * fzf implementations, usage examples, scripts, etc. 
   * <https://github.com/junegunn/fzf#usage>  
