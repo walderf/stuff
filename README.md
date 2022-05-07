@@ -263,8 +263,8 @@ echo $IPADDR
 ## aurs
   - count and show AUR/Chaotic-AUR packages on Arch Linux
 
-  ->  [aurs.sh](scripts/aurs.sh)  <-
-  ->  [aurs-screenshot.png](screenshots/aurs-screenshot.png)  <-
+  ->  [aurs.sh](scripts/aurs.sh)  <-  
+  ->  [aurs-screenshot.png](screenshots/aurs-screenshot.png)  <-  
 
 <details><summary>show screenshot</summary>
 
