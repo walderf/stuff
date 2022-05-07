@@ -266,11 +266,7 @@ echo $IPADDR
   ->  [aurs.sh](scripts/aurs.sh)  <-  
   ->  [aurs-screenshot.png](screenshots/aurs-screenshot.png)  <-  
 
-<details><summary>show screenshot</summary>
-
 ![aurs.sh screenshot](screenshots/aurs-screenshot.png)
-
-</details>
 
 <details><summary>show script source code</summary>
 
