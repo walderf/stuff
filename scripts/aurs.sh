@@ -23,25 +23,25 @@ yellowbg="\033[43m"
 bluebg="\033[44m"
 magentabg="\033[45m"
 cyanbg="\033[46m"
-hitebg="\033[47m"
+whitebg="\033[47m"
 
 # setup a temporary directory in /tmp/
 tmp_dir=$(mktemp -d)
 
 # setup temporary files in our freshly created ${tmp_dir}
-tmp_inst=$(mktemp --tmpdir=${tmp_dir})
-tmp_chaotic=$(mktemp --tmpdir=${tmp_dir})
-tmp_common=$(mktemp --tmpdir=${tmp_dir})
-tmp_aur=$(mktemp --tmpdir=${tmp_dir})
+tmp_inst=$(mktemp --tmpdir="${tmp_dir}")
+tmp_chaotic=$(mktemp --tmpdir="${tmp_dir}")
+tmp_common=$(mktemp --tmpdir="${tmp_dir}")
+tmp_aur=$(mktemp --tmpdir="${tmp_dir}")
 
 # list of all currently installed packages
-count_installed=$(yay -Qq | sort > ${tmp_inst} && cat ${tmp_inst} | wc -l)
+count_installed=$(yay -Qq | sort | tee "${tmp_inst}" | wc -l)
 # list of every chaotic AUR package
-yay -Slq chaotic-aur | sort > ${tmp_chaotic}
+yay -Slq chaotic-aur | sort > "${tmp_chaotic}"
 # count and list the common files between the above two sorted lists
-count_common=$(comm -12 ${tmp_inst} ${tmp_chaotic} > ${tmp_common} && cat ${tmp_common} | wc -l)
+count_common=$(comm -12 "${tmp_inst}" "${tmp_chaotic}" | tee "${tmp_common}" | wc -l)
 # count and list of all currently installed foreign (AUR) packages 
-count_aur=$(yay -Qqm > ${tmp_aur} && cat ${tmp_aur} | wc -l)
+count_aur=$(yay -Qqm | tee "${tmp_aur}" | wc -l)
 # count total number of "aur" packages
 count_foreign="$((count_common+count_aur))"
 
@@ -50,12 +50,12 @@ count_foreign="$((count_common+count_aur))"
 echo -e "<${ul}${bold}Foreign${reset}: ${bold}${yellow}${count_foreign}${reset}>\t<${ul}${bold}Total${reset}: ${bold}${yellow}${count_installed}${reset}>"
 echo 
 echo -e "<${ul}${bold}Chaotic-AUR${reset}: ${bold}${yellow}${count_common}${reset}>"
-cat ${tmp_common} | awk '{print " - " $0}'
+awk '{print " - " $0}' "${tmp_common}"
 echo 
 echo -e "<${ul}${bold}AUR${reset}: ${bold}${yellow}${count_aur}${reset}>"
-cat ${tmp_aur} | awk '{print " - " $0}'
+awk '{print " - " $0}' "${tmp_aur}"
 echo -e ""
-rm -fr {$tmp_dir}
+rm -fr "${tmp_dir}"
 exit
 
 
