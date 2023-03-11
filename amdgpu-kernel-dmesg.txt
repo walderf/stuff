@@ -1,0 +1,106 @@
+[Fri Mar 10 23:19:28 2023] Freeing unused decrypted memory: 2036K
+[Fri Mar 10 23:19:28 2023] Freeing unused kernel image (initmem) memory: 3272K
+[Fri Mar 10 23:19:28 2023] Write protecting the kernel read-only data: 32768k
+[Fri Mar 10 23:19:28 2023] Freeing unused kernel image (rodata/data gap) memory: 1808K
+[Fri Mar 10 23:19:28 2023] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[Fri Mar 10 23:19:28 2023] rodata_test: all tests were successful
+[Fri Mar 10 23:19:28 2023] x86/mm: Checking user space page tables
+[Fri Mar 10 23:19:28 2023] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[Fri Mar 10 23:19:28 2023] Run /init as init process
+[Fri Mar 10 23:19:28 2023]   with arguments:
+[Fri Mar 10 23:19:28 2023]     /init
+[Fri Mar 10 23:19:28 2023]   with environment:
+[Fri Mar 10 23:19:28 2023]     HOME=/
+[Fri Mar 10 23:19:28 2023]     TERM=linux
+[Fri Mar 10 23:19:28 2023]     cryptdevice=PARTUUID=6c037d31-1889-463d-bd45-959802097cb6:luksdev
+[Fri Mar 10 23:19:28 2023]     spec_store_bypass_disable=on
+[Fri Mar 10 23:19:28 2023]     spectre_v2=on
+[Fri Mar 10 23:19:28 2023]     pti=on
+[Fri Mar 10 23:19:28 2023] cec: Failed to create debugfs cec dir
+[Fri Mar 10 23:19:28 2023] wmi_bus wmi_bus-PNP0C14:01: WQAA data block query control method not found
+[Fri Mar 10 23:19:30 2023] [drm] amdgpu kernel modesetting enabled.
+[Fri Mar 10 23:19:30 2023] amdgpu: Ignoring ACPI CRAT on non-APU system
+[Fri Mar 10 23:19:30 2023] amdgpu: Virtual CRAT table created for CPU
+[Fri Mar 10 23:19:30 2023] amdgpu: Topology: Add CPU node
+[Fri Mar 10 23:19:30 2023] [drm] initializing kernel modesetting (VEGA10 0x1002:0x687F 0x148C:0x2388 0xC3).
+[Fri Mar 10 23:19:30 2023] [drm] register mmio base: 0xFCC00000
+[Fri Mar 10 23:19:30 2023] [drm] register mmio size: 524288
+[Fri Mar 10 23:19:30 2023] [drm] add ip block number 0 <soc15_common>
+[Fri Mar 10 23:19:30 2023] [drm] add ip block number 1 <gmc_v9_0>
+[Fri Mar 10 23:19:30 2023] [drm] add ip block number 2 <vega10_ih>
+[Fri Mar 10 23:19:30 2023] [drm] add ip block number 3 <psp>
+[Fri Mar 10 23:19:30 2023] [drm] add ip block number 4 <powerplay>
+[Fri Mar 10 23:19:30 2023] [drm] add ip block number 5 <dm>
+[Fri Mar 10 23:19:30 2023] [drm] add ip block number 6 <gfx_v9_0>
+[Fri Mar 10 23:19:30 2023] [drm] add ip block number 7 <sdma_v4_0>
+[Fri Mar 10 23:19:30 2023] [drm] add ip block number 8 <uvd_v7_0>
+[Fri Mar 10 23:19:30 2023] [drm] add ip block number 9 <vce_v4_0>
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: No more image in the PCI ROM
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: amdgpu: Fetched VBIOS from ROM BAR
+[Fri Mar 10 23:19:30 2023] amdgpu: ATOM BIOS: 111
+[Fri Mar 10 23:19:30 2023] [drm] UVD(0) is enabled in VM mode
+[Fri Mar 10 23:19:30 2023] [drm] UVD(0) ENC is enabled in VM mode
+[Fri Mar 10 23:19:30 2023] [drm] VCE enabled in VM mode
+[Fri Mar 10 23:19:30 2023] Console: switching to colour dummy device 80x25
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: vgaarb: deactivate vga console
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: amdgpu: Trusted Memory Zone (TMZ) feature not supported
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: amdgpu: MEM ECC is not presented.
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: amdgpu: SRAM ECC is not presented.
+[Fri Mar 10 23:19:30 2023] [drm] vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: amdgpu: VRAM: 8176M 0x000000F400000000 - 0x000000F5FEFFFFFF (8176M used)
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: amdgpu: GART: 512M 0x0000000000000000 - 0x000000001FFFFFFF
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: amdgpu: AGP: 267419648M 0x000000F800000000 - 0x0000FFFFFFFFFFFF
+[Fri Mar 10 23:19:30 2023] [drm] Detected VRAM RAM=8176M, BAR=256M
+[Fri Mar 10 23:19:30 2023] [drm] RAM width 2048bits HBM
+[Fri Mar 10 23:19:30 2023] [drm] amdgpu: 8176M of VRAM memory ready
+[Fri Mar 10 23:19:30 2023] [drm] amdgpu: 7667M of GTT memory ready.
+[Fri Mar 10 23:19:30 2023] [drm] GART: num cpu pages 131072, num gpu pages 131072
+[Fri Mar 10 23:19:30 2023] [drm] PCIE GART of 512M enabled.
+[Fri Mar 10 23:19:30 2023] [drm] PTB located at 0x000000F400000000
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: amdgpu: PSP runtime database doesn't exist
+[Fri Mar 10 23:19:30 2023] amdgpu 0000:0a:00.0: amdgpu: PSP runtime database doesn't exist
+[Fri Mar 10 23:19:30 2023] amdgpu: hwmgr_sw_init smu backed is vega10_smu
+[Fri Mar 10 23:19:30 2023] [drm] Found UVD firmware Version: 66.43 Family ID: 17
+[Fri Mar 10 23:19:30 2023] [drm] PSP loading UVD firmware
+[Fri Mar 10 23:19:30 2023] [drm] Found VCE firmware Version: 57.6 Binary ID: 4
+[Fri Mar 10 23:19:30 2023] [drm] PSP loading VCE firmware
+[Fri Mar 10 23:19:30 2023] [drm] reserve 0x400000 from 0xf5fec00000 for PSP TMR
+[Fri Mar 10 23:19:30 2023] [drm] Display Core initialized with v3.2.215!
+[Fri Mar 10 23:19:31 2023] [drm] kiq ring mec 2 pipe 1 q 0
+[Fri Mar 10 23:19:31 2023] [drm] UVD and UVD ENC initialized successfully.
+[Fri Mar 10 23:19:31 2023] [drm] VCE initialized successfully.
+[Fri Mar 10 23:19:31 2023] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[Fri Mar 10 23:19:31 2023] amdgpu: sdma_bitmap: f
+[Fri Mar 10 23:19:31 2023] memmap_init_zone_device initialised 2097152 pages in 20ms
+[Fri Mar 10 23:19:31 2023] amdgpu: HMM registered 8176MB device memory
+[Fri Mar 10 23:19:31 2023] amdgpu: SRAT table not found
+[Fri Mar 10 23:19:31 2023] amdgpu: Virtual CRAT table created for GPU
+[Fri Mar 10 23:19:31 2023] amdgpu: Topology: Add dGPU node [0x687f:0x1002]
+[Fri Mar 10 23:19:31 2023] kfd kfd: amdgpu: added device 1002:687f
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: SE 4, SH per SE 1, CU per SH 16, active_cu_number 56
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring gfx_low uses VM inv eng 1 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring gfx_high uses VM inv eng 4 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 5 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 6 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 7 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 8 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 9 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 10 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 11 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 12 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 13 on hub 0
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring page0 uses VM inv eng 1 on hub 1
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring sdma1 uses VM inv eng 4 on hub 1
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring page1 uses VM inv eng 5 on hub 1
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring uvd_0 uses VM inv eng 6 on hub 1
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring uvd_enc_0.0 uses VM inv eng 7 on hub 1
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring uvd_enc_0.1 uses VM inv eng 8 on hub 1
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring vce0 uses VM inv eng 9 on hub 1
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring vce1 uses VM inv eng 10 on hub 1
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: amdgpu: ring vce2 uses VM inv eng 11 on hub 1
+[Fri Mar 10 23:19:31 2023] [drm] Initialized amdgpu 3.49.0 20150101 for 0000:0a:00.0 on minor 0
+[Fri Mar 10 23:19:31 2023] fbcon: amdgpudrmfb (fb0) is primary device
+[Fri Mar 10 23:19:31 2023] Console: switching to colour frame buffer device 200x56
+[Fri Mar 10 23:19:31 2023] amdgpu 0000:0a:00.0: [drm] fb0: amdgpudrmfb frame buffer device
