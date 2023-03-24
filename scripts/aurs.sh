@@ -3,6 +3,9 @@
 # error on unset variables 
 set -o nounset
 
+# pacman.conf location
+pacman_conf="/etc/pacman.conf"
+
 # easy colors
 reset="\033[0m"
 bold="\033[1m"
@@ -36,8 +39,12 @@ tmp_aur=$(mktemp --tmpdir="${tmp_dir}")
 
 # list of all currently installed packages
 count_installed=$(yay -Qq | sort | tee "${tmp_inst}" | wc -l)
-# list of every chaotic AUR package
-yay -Slq chaotic-aur | sort > "${tmp_chaotic}"
+# to get the list of every chaotic AUR package...
+# ...we check the variable $[pacman_conf} to see... 
+# ...if 'chaotic' occurs within a non-commented-out line
+if  grep -qiP '^(?!^#).*chaotic' ${pacman_conf} ; then 
+  yay -Slq chaotic-aur | sort > "${tmp_chaotic}"
+fi
 # count and list the common files between the above two sorted lists
 count_common=$(comm -12 "${tmp_inst}" "${tmp_chaotic}" | tee "${tmp_common}" | wc -l)
 # count and list of all currently installed foreign (AUR) packages 
