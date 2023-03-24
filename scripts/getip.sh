@@ -1,4 +1,4 @@
 #!/bin/bash
-IPADDR=$(wget -q -O- http://whatismyip.akamai.com --no-check-certificate)
+IPADDR=$(wget -q -O- https://whatismyip.akamai.com --no-check-certificate)
 echo $IPADDR
 
