@@ -2,7 +2,7 @@
 
 # error on unset variables 
 set -o nounset
-
+set +u
 # pacman.conf location
 pacman_conf="/etc/pacman.conf"
 
@@ -44,10 +44,14 @@ count_installed=$(yay -Qq | sort | tee "${tmp_inst}" | wc -l)
 # ...if 'chaotic' occurs within a non-commented-out line
 if  grep -qiP '^(?!^#).*chaotic' ${pacman_conf} ; then 
   yay -Slq chaotic-aur | sort > "${tmp_chaotic}"
+  haschaos=TRUE
 fi
+
 # count and list the common files between the above two sorted lists
 count_common=$(comm -12 "${tmp_inst}" "${tmp_chaotic}" | tee "${tmp_common}" | wc -l)
 # count and list of all currently installed foreign (AUR) packages 
+count_aur=$(yay -Qqm | tee "${tmp_aur}" | wc -l)
+# count total number of "aur" packages
 count_aur=$(yay -Qqm | tee "${tmp_aur}" | wc -l)
 # count total number of "aur" packages
 count_foreign="$((count_common+count_aur))"
@@ -55,17 +59,14 @@ count_foreign="$((count_common+count_aur))"
 # display some data
 
 echo -e "<${ul}${bold}Foreign${reset}: ${bold}${yellow}${count_foreign}${reset}>\t<${ul}${bold}Total${reset}: ${bold}${yellow}${count_installed}${reset}>"
-echo 
-echo -e "<${ul}${bold}Chaotic-AUR${reset}: ${bold}${yellow}${count_common}${reset}>"
-awk '{print " - " $0}' "${tmp_common}"
+echo
+if [ "${haschaos}" = TRUE ] ; then
+  echo -e "<${ul}${bold}Chaotic-AUR${reset}: ${bold}${yellow}${count_common}${reset}>"
+  awk '{print " - " $0}' "${tmp_common}"
+fi
 echo 
 echo -e "<${ul}${bold}AUR${reset}: ${bold}${yellow}${count_aur}${reset}>"
 awk '{print " - " $0}' "${tmp_aur}"
 echo -e ""
 rm -fr "${tmp_dir}"
 exit
-
-
-
-
-
